@@ -4,19 +4,24 @@ This is a game that allows users to place bombs down on various locations in ord
 place in order to win and then creates the enemies based on that. This game requires problem solving skills to complete the levels, 
 as they get more difficult as you progress.
 
+## To Play
+* Select a difficulty and then you will be in the game main menu.
+* Use arrow keys or wasd to move the player (cyan square) and press space to place bombs.
+* Bombs will explode in all 8 directions from the position placed once all have been pressed and you will either win or lose based on if you defeat all enemies (red squares).
+* Press backspace to remove last placed bomb.
+* Press f to place a flag, which can help for keeping track of possible positions.
 
-## How I Created This:
+## Installation Instructions
+Run the following commands in the terminal:
+```
+pip install beautifulsoup4
+pip install pygame
+pip install soupsieve
+```
+
+## How I Created This
 **Technology Used:** Python, Pygame
 
-_Discuss more here._
 
 ## Optimisations
 _Future development will be described here._
-
-## Lessons Learned:
-During the creation of this project I learned quite a bit about how to develop games within python using pygame.
-
-I also learnt how to utilize randomisation and backtracking skills.
-
-I am hoping to work more on this project in the future to make it complete entirely to users' satisfaction and attempt to make randomisation 
-better using algorithm and AI techniques. Thank You.
